@@ -20,7 +20,7 @@
 
 ### License
 ------------
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nickjhill14/nickjhill14.github.io/blob/master/LICENSE.md) file for details
 
 ### Acknowledgements
 ------------
