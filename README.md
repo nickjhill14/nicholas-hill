@@ -10,9 +10,11 @@
 
 ### Built With
 ------------
-**- [Bootstrap](https://getbootstrap.com "Bootstrap")** -  Development toolkit
-**- [Font Awesome](https://origin.fontawesome.com "Font Awesome")** - Vector icons and social logos
-**- [Popper.js](https://popper.js.org "Popper.js")** - Manages poppers
+**[Bootstrap](https://getbootstrap.com "Bootstrap")** -  Development toolkit
+
+**[Font Awesome](https://origin.fontawesome.com "Font Awesome")** - Vector icons and social logos
+
+**[Popper.js](https://popper.js.org "Popper.js")** - Manages poppers
 
 ### Author
 ------------
