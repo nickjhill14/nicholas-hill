@@ -74,10 +74,19 @@ mark {
     margin-bottom: 0;
 }
 
-.date p {
+.date {
     color: grey;
     font-size: 80%;
-    margin-bottom: 5px;
+}
+
+.location {
+    color: grey;
+    font-size: 80%;
+}
+
+.dateLocation {
+    color: grey;
+    font-size: 80%;
 }
 
 .information li {
@@ -111,7 +120,7 @@ mark {
     background-color: #ffffff;
 }
 
-#contacts i {
+.socialMediaIcon {
     font-size: 50px;
 }
 
