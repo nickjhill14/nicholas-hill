@@ -2,67 +2,69 @@ body, html, .main {
     height: 100%;
 }
 
-section {
-    min-height: 100%;
-}
 body {
     font-family: 'Exo', sans-serif;
     color: black;
 }
 
+section {
+    min-height: 100%;
+}
+
+/* HEADINGS */
 h1 {
     letter-spacing: 3px;
     line-height: 200%;
     font-size: 250%;
     padding-left: 50px;
 }
-
 h2 {
     font-family: 'Vollkorn', serif;
     font-size: 200%;
     text-align: center;
 }
-
 h3 {
     font-size: 100%;
 }
-
+h4 {
+    font-size: 90%;
+    font-weight: bold;
+}
 h2,
 h3 {
     font-weight: bolder;
 }
 
+/* LINKS */
 a {
     color: #ffb347;
 }
-
 a:hover {
     color: grey;
     text-decoration: none;
 }
 
+/* ICONS */
 i {
     padding-right: 5px;
 }
 
+/* NAVIGATION BAR */
 nav {
     font-size: 15px;
 }
-
-
-mark {
-    background-color: transparent;
-    color: #ffb347;
-}
-
 .nav-link p {
     color: grey;
 }
-
 .nav-link p:hover {
     color: #ffb347;
 }
 
+/* LANDING PAGE */
+mark {
+    background-color: transparent;
+    color: #ffb347;
+}
 .vertical-center {
   min-height: 100%;
   min-height: 100vh;
@@ -70,17 +72,18 @@ mark {
   align-items: center;
 }
 
-.summary p {
-    margin-bottom: 0;
-}
-
+/* DATE & LOCATION */
 .dateLocation {
     color: grey;
     font-size: 75%;
 }
-
 .dateLocation p {
     margin-bottom: 5px;
+}
+
+/* DETAILS */
+.details ul {
+    font-size: 80%;
 }
 
 .information li {
