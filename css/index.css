@@ -74,19 +74,13 @@ mark {
     margin-bottom: 0;
 }
 
-.date {
-    color: grey;
-    font-size: 80%;
-}
-
-.location {
-    color: grey;
-    font-size: 80%;
-}
-
 .dateLocation {
     color: grey;
     font-size: 80%;
+}
+
+.dateLocation p {
+    margin-bottom: 5px;
 }
 
 .information li {
