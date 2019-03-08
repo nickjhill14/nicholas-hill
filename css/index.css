@@ -13,15 +13,23 @@ body {
 h1 {
     letter-spacing: 3px;
     line-height: 200%;
-    font-size: 3vw;
+    font-size: 250%;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 100%;
 }
 
 h2,
-h3,
-h4,
-h5 {
-    font-family: 'Vollkorn', serif;
-    font-weight: 900;
+h3 {
+    font-weight: bolder;
 }
 
 a {
@@ -60,14 +68,6 @@ mark {
   min-height: 100vh;
   display: flex;
   align-items: center;
-}
-
-.titleContainer {
-    padding-left: 50px;
-}
-
-.headerContainer {
-    text-align: center;
 }
 
 .summary p {
