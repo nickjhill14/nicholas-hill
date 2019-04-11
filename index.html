@@ -25,7 +25,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Exo|Vollkorn" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,500" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="css/index.css" rel="stylesheet" type="text/css">
@@ -35,7 +35,10 @@
   </script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-122222679-1');
@@ -58,22 +61,28 @@
           <!-- PAGE LINKS -->
           <div class="collapse navbar-collapse justify-content-end" id="nav-content">
             <ul class="navbar-nav">
-              <!-- Experience -->
-              <li class="nav-item">
-                <a class="nav-link" href="#workExperience">
-                  <p>Experience</p>
-                </a>
-              </li>
               <!-- Education -->
               <li class="nav-item">
                 <a class="nav-link" href="#education">
                   <p>Education</p>
                 </a>
               </li>
+              <!-- Projects -->
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">
+                  <p>Projects</p>
+                </a>
+              </li>
               <!-- Achievements -->
               <li class="nav-item">
                 <a class="nav-link" href="#achievements">
                   <p>Achievements</p>
+                </a>
+              </li>
+              <!-- Experience -->
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">
+                  <p>Experience</p>
                 </a>
               </li>
               <!-- Involvements -->
@@ -84,7 +93,7 @@
               </li>
               <!-- Contact -->
               <li class="nav-item">
-                <a class="nav-link" href="#contacts">
+                <a class="nav-link" href="#contact">
                   <p>Contact</p>
                 </a>
               </li>
@@ -123,7 +132,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>September 2013 - July 2017</p>
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2013 - Jul. 2017</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
@@ -164,11 +173,17 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>September 2011 - August 2013</p>
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2011 - Aug. 2013</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
               </div>
+            </div>
+            <!-- Details -->
+            <div class="details">
+              <!-- Areas of Study -->
+              <h4><i class="fas fa-book"></i>Areas of Study</h4>
+              <p>Mathematics, IT, Geography, and Chemistry (A/S).</p>
             </div>
           </div>
         </div>
@@ -183,11 +198,17 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>September 2009 - August 2011</p>
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2009 - Aug. 2011</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
               </div>
+            </div>
+            <!-- Details -->
+            <div class="details">
+              <!-- Areas of Study -->
+              <h4><i class="fas fa-book"></i>Areas of Study</h4>
+              <p>Triple Science, Mathematics, IT, English, Geography, Business & Economics, and German.</p>
             </div>
           </div>
         </div>
@@ -198,37 +219,133 @@
         <div class="row imageContainer">
 
           <!-- GRAD BALL -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Grad Ball - UON '17" class="img-fluid" src="img/grad-ball.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Grad Ball - UoN '17</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="Grad Ball - UON '17" class="img-fluid" src="img/grad-ball.jpg">
           </div>
 
           <!-- GRADUATION CEREMONY -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Graduation Ceremony - UoN '17" class="img-fluid" src="img/graduation-uon.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Graduation Ceremony - UoN '17</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="Graduation Ceremony - UoN '17" class="img-fluid" src="img/graduation-uon.jpg">
           </div>
         </div>
 
         <!-- STROUD -->
         <div class="row imageContainer">
+          <div class="col-md-12">
+            <img alt="High Street - Stroud '17" class="img-fluid" src="img/high-street-stroud.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS SECTION -->
+  <div class="container-fluid section" id="projects">
+    <div class="row">
+
+      <!-- PROJECTS IMAGES -->
+      <div class="col-md-6">
+        <div class="row imageContainer">
+
+          <!-- PARENTS EVENING -->
+          <div class="col-md-6">
+            <img alt="Parents Evening - SIK '18" class="img-fluid" src="img/parents-evening.jpg">
+          </div>
+
+          <!-- SIK TEACHERS -->
+          <div class="col-md-6">
+            <img alt="English Teachers - SIK '18" class="img-fluid" src="img/teachers-sik.jpg">
+          </div>
+        </div>
+
+        <!-- SIK GRADUATION CEREMONY -->
+        <div class="row imageContainer">
+          <div class="col-md-12">
+            <img alt="Graduation Ceremony - SIK '18" class="img-fluid" src="img/graduation-flowers-sik.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS CONTENT -->
+      <div class="col-md-6">
+        <div class="row">
           <div class="col">
-            <div class="hovereffect">
-              <img alt="High Street - Stroud '17" class="img-fluid" src="img/high-street-stroud.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>High Street - Stroud '17</p>
+            <!-- Title -->
+            <h2><i class="fas fa-tasks"></i>Projects</h2>
+
+            <!-- OPPORTUNISTIC ROUTING PROTOCOLS -->
+            <!-- Title -->
+            <h3><i class="fas fa-network-wired"></i>Opportunistic Routing Protocols</h3>
+            <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></h4>
+            <!-- Date & Location -->
+            <div class="row dateLocation">
+              <div class="col-md-5">
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2016 - Jan. 2017</p>
               </div>
+              <div class="col-md-7">
+                <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="details">
+              <p>Evaluated the performance characteristics of two opportunistic routing protocols in the
+                Opportunistic Network Environment (ONE) simulator.</p>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- TEACH ME MATHS APPLICATION -->
+        <div class="row">
+          <div class="col">
+            <!-- Title -->
+            <h3><i class="fas fa-calculator"></i>Teach Me Maths Application</h3>
+            <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></h4>
+            <!-- Date & Location -->
+            <div class="row dateLocation">
+              <div class="col-md-5">
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2015 - Jul. 2016</p>
+              </div>
+              <div class="col-md-7">
+                <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="details">
+              <p>An Android application that utilised visual aids and tools to support young people with visual
+                impairments.</p>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- AUTONOMOUS ROBOT IMAGE TAGGING SYSTEM -->
+        <div class="row">
+          <div class="col">
+            <!-- Title -->
+            <h3><i class="fas fa-robot"></i>Autonomous Robot Image Tagging System</h3>
+            <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></h4>
+            <!-- Date & Location -->
+            <div class="row dateLocation">
+              <div class="col-md-5">
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2014 - Jul. 2015</p>
+              </div>
+              <div class="col-md-7">
+                <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
+              </div>
+            </div>
+            <!-- Details -->
+            <div class="details">
+              <ul>
+                <li>An integrated system composed of an autonomous, image-capturing, Arduino robot and a website
+                  allowing users to tag objects for improved image recognition.</li>
+                <li>Coordinated an Agile development team comprised of both British and Chinese international students.
+                </li>
+                <li>Lead developer for the front-end of the website and UI developer for the tagging system interface.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -236,178 +353,159 @@
     </div>
   </div>
 
-  <!-- ACHIEVEMENTS SECTION -->
-  <div class="container-fluid section" id="achievements">
-    <div class="row">
+    <!-- ACHIEVEMENTS SECTION -->
+    <div class="container-fluid section" id="achievements">
+      <div class="row">
 
-      <!-- ACHIEVEMENTS CONTENT-->
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col">
-            <!-- Title -->
-            <h2><i class="fas fa-trophy"></i>Achievements</h2>
+        <!-- ACHIEVEMENTS CONTENT-->
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col">
+              <!-- Title -->
+              <h2><i class="fas fa-trophy"></i>Achievements</h2>
 
-            <!-- TEFL -->
-            <!-- Title -->
-            <h3><i class="fas fa-chalkboard-teacher"></i>GA Level 3 Certificate in TEFL</h3>
-            <h4><a href="https://www.i-to-i.com/" target="_blank">i-to-i</a></h4>
-            <!-- Date & Location -->
-            <div class="row dateLocation">
-              <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>August 2017</p>
+              <!-- TEFL -->
+              <!-- Title -->
+              <h3><i class="fas fa-chalkboard-teacher"></i>GA Level 3 Certificate in TEFL</h3>
+              <h4><a href="https://www.i-to-i.com/" target="_blank">Teach and Travel Group Ltd.</a></h4>
+              <!-- Date & Location -->
+              <div class="row dateLocation">
+                <div class="col-md-5">
+                  <p><i class="fas fa-calendar-alt"></i>Aug. 2017</p>
+                </div>
+                <div class="col-md-7">
+                  <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
+                </div>
               </div>
-              <div class="col-md-7">
-                <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
+              <!-- Details -->
+              <div class="details">
+                <p>Required to teach English as a foreign language in most countries.</p>
               </div>
             </div>
-            <!-- Details -->
-            <div class="details">
-              <p>Required to teach English as a foreign language in most countries.</p>
+          </div>
+
+          <hr>
+
+          <!-- 100% ACCEPTANCE RATE -->
+          <div class="row">
+            <div class="col">
+              <!-- Title -->
+              <h3><i class="fas fa-graduation-cap"></i>100% Acceptance Rate</h3>
+              <h4><a href="http://teachsz.com/English/" target="_blank">Smartforce International
+                  Kindergarten</a></h4>
+              <!-- Date & Location -->
+              <div class="row dateLocation">
+                <div class="col-md-5">
+                  <p><i class="fas fa-calendar-alt"></i>Jul. 2017</p>
+                </div>
+                <div class="col-md-7">
+                  <p><i class="fas fa-map-marker-alt"></i>Shenzhen, China</p>
+                </div>
+              </div>
+              <!-- Details -->
+              <div class="details">
+                <p>My Chinese students passed their school entrance exams and were accepted into their
+                  first-choice school.</p>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- 7DIGITAL/ESENDEX PRIZE -->
+          <div class="row">
+            <div class="col">
+              <!-- Title -->
+              <h3><i class="fas fa-desktop"></i>7Digital/Esendex Prize for Software Quality</h3>
+              <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></h4>
+              <!-- Date & Location -->
+              <div class="row dateLocation">
+                <div class="col-md-5">
+                  <p><i class="fas fa-calendar-alt"></i>Jun. 2015</p>
+                </div>
+                <div class="col-md-7">
+                  <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
+                </div>
+              </div>
+              <!-- Details -->
+              <div class="details">
+                <p>The development of an Autonomous Robot Image Tagging System (see <a href="#projects">Projects</a> for more).</p>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- C++ HALL OF FAME -->
+          <div class="row">
+            <div class="col">
+              <!-- Title -->
+              <h3><i class="fas fa-gamepad"></i>C++ Individual Project Hall of Fame</h3>
+              <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a>
+              </h4>
+              <!-- Date & Location -->
+              <div class="row dateLocation">
+                <div class="col-md-5">
+                  <p><i class="fas fa-calendar-alt"></i>Jun. 2015</p>
+                </div>
+                <div class="col-md-7">
+                  <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
+                </div>
+              </div>
+              <!-- Details -->
+              <div class="details">
+                <p>A 2D tower defence game. One of the highest attaining C++ game projects of the year.</p>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- MICROPHONE PLACEMENT -->
+          <div class="row">
+            <div class="col">
+              <!-- Title -->
+              <h3><i class="fas fa-microphone"></i>AQA Certificate in Microphone Placement</h3>
+              <h4><a
+                  href="https://www.ychertfordshire.org/youth-work/music-and-media-studios/youthpoint-music-and-media-studio/"
+                  target="_blank">YouthPoint Studios</a></h4>
+              <!-- Date & Location -->
+              <div class="row dateLocation">
+                <div class="col-md-5">
+                  <p><i class="fas fa-calendar-alt"></i>Jun. 2014</p>
+                </div>
+                <div class="col-md-7">
+                  <p><i class="fas fa-map-marker-alt"></i>Watford, UK</p>
+                </div>
+              </div>
+              <!-- Details -->
+              <div class="details">
+                <p>Completed a course in the correct choosing, handling, and positioning of microphones in
+                  a professional recording studio.</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <hr>
+        <!-- ACHIEVEMENTS IMAGES -->
+        <div class="col-md-6">
+          <div class="row imageContainer">
 
-        <!-- 100% ACCEPTANCE RATE -->
-        <div class="row">
-          <div class="col">
-            <!-- Title -->
-            <h3><i class="fas fa-graduation-cap"></i>100% Acceptance Rate</h3>
-            <h4><a href="http://teachsz.com/English/" target="_blank">Smartforce International
-                Kindergarten</a></h4>
-            <!-- Date & Location -->
-            <div class="row dateLocation">
-              <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>July 2017</p>
-              </div>
-              <div class="col-md-7">
-                <p><i class="fas fa-map-marker-alt"></i>Shenzhen, China</p>
-              </div>
-            </div>
-            <!-- Details -->
-            <div class="details">
-              <p>My Chinese students passed their school entrance exams and were accepted into their
-                first-choice school.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <!-- 7DIGITAL/ESENDEX PRIZE -->
-        <div class="row">
-          <div class="col">
-            <!-- Title -->
-            <h3><i class="fas fa-desktop"></i>7Digital/Esendex Prize for Software Quality</h3>
-            <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a></h4>
-            <!-- Date & Location -->
-            <div class="row dateLocation">
-              <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>June 2015</p>
-              </div>
-              <div class="col-md-7">
-                <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
-              </div>
-            </div>
-            <!-- Details -->
-            <div class="details">
-              <p>The development of an Autonomous Robot Image Tagging System (see Projects for more).</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <!-- C++ HALL OF FAME -->
-        <div class="row">
-          <div class="col">
-            <!-- Title -->
-            <h3><i class="fas fa-gamepad"></i>C++ Individual Project Hall of Fame</h3>
-            <h4><a href="https://www.nottingham.ac.uk/" target="_blank">University of Nottingham</a>
-            </h4>
-            <!-- Date & Location -->
-            <div class="row dateLocation">
-              <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>June 2015</p>
-              </div>
-              <div class="col-md-7">
-                <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
-              </div>
-            </div>
-            <!-- Details -->
-            <div class="details">
-              <p>One of the highest attaining C++ game projects of the year. The project was a 2D tower
-                defence game.</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <!-- MICROPHONE PLACEMENT -->
-        <div class="row">
-          <div class="col">
-            <!-- Title -->
-            <h3><i class="fas fa-microphone"></i>AQA Certificate in Microphone Placement</h3>
-            <h4><a
-                href="https://www.ychertfordshire.org/youth-work/music-and-media-studios/youthpoint-music-and-media-studio/"
-                target="_blank">YouthPoint Studios</a></h4>
-            <!-- Date & Location -->
-            <div class="row dateLocation">
-              <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>June 2014</p>
-              </div>
-              <div class="col-md-7">
-                <p><i class="fas fa-map-marker-alt"></i>Watford, UK</p>
-              </div>
-            </div>
-            <!-- Details -->
-            <div class="details">
-              <p>Completed a course in the correct choosing, handling, and positioning of microphones in
-                a professional recording studio.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ACHIEVEMENTS IMAGES -->
-      <div class="col-md-6">
-        <div class="row imageContainer">
-
-          <!-- TEACHER'S AWARD SHOW -->
-          <div class="col">
-            <div class="hovereffect">
+            <!-- TEACHER'S AWARD SHOW -->
+            <div class="col-md-6">
               <img alt="Teacher's Award Show - SIK '18" class="img-fluid" src="img/graduation-sik.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Teacher's Award Show - SIK '18</p>
-              </div>
             </div>
-          </div>
 
-          <!-- HOWLING COMMANDOS -->
-          <div class="col">
-            <div class="hovereffect">
+            <!-- HOWLING COMMANDOS -->
+            <div class="col-md-6">
               <img alt="Howling Commandos - UoN '15" class="img-fluid" src="img/howling-commandos.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Howling Commandos - UoN '15</p>
-              </div>
             </div>
           </div>
-        </div>
 
-        <!-- STUDIO ONE -->
-        <div class="row imageContainer">
-          <div class="col">
-            <div class="hovereffect">
+          <!-- STUDIO ONE -->
+          <div class="row imageContainer">
+            <div class="col-md-12">
               <img alt="Recording Guitars - Studio One '13" class="img-fluid" src="img/nick-anthony-studio.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Recording Guitars - Studio One '13</p>
-              </div>
             </div>
           </div>
         </div>
@@ -416,7 +514,7 @@
   </div>
 
   <!-- EXPERIENCE SECTION -->
-  <div class="container-fluid section" id="workExperience">
+  <div class="container-fluid section" id="experience">
     <div class="row">
 
       <!-- EXPERIENCE IMAGES -->
@@ -424,38 +522,20 @@
         <div class="row imageContainer">
 
           <!-- PARENTS EVENING -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Parents Evening - SIK '18" class="img-fluid" src="img/parents-evening.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Parents Evening - SIK '18</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="Parents Evening - SIK '18" class="img-fluid" src="img/parents-evening.jpg">
           </div>
 
           <!-- SIK TEACHERS -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="English Teachers - SIK '18" class="img-fluid" src="img/teachers-sik.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>English Teachers - SIK '18</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="English Teachers - SIK '18" class="img-fluid" src="img/teachers-sik.jpg">
           </div>
         </div>
 
         <!-- SIK GRADUATION CEREMONY -->
         <div class="row imageContainer">
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Graduation Ceremony - SIK '18" class="img-fluid" src="img/graduation-flowers-sik.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Graduation Ceremony - SIK '18</p>
-              </div>
-            </div>
+          <div class="col-md-12">
+            <img alt="Graduation Ceremony - SIK '18" class="img-fluid" src="img/graduation-flowers-sik.jpg">
           </div>
         </div>
       </div>
@@ -474,7 +554,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>November 2018 - Present</p>
+                <p><i class="fas fa-calendar-alt"></i>Nov. 2018 - Present</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Kowloon, Hong Kong</p>
@@ -500,7 +580,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>January 2018 - Present</p>
+                <p><i class="fas fa-calendar-alt"></i>Jan. 2018 - Present</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Hong Kong</p>
@@ -528,7 +608,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>September 2017 - July 2018</p>
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2017 - Jul. 2018</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Shenzhen, China</p>
@@ -556,7 +636,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>June 2016 - September 2017</p>
+                <p><i class="fas fa-calendar-alt"></i>Jun. 2016 - Sep. 2017</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
@@ -584,7 +664,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>March 2012 - August 2015</p>
+                <p><i class="fas fa-calendar-alt"></i>Mar. 2012 - Aug. 2015</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Borehamwood, UK</p>
@@ -621,7 +701,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>February 2010 - Present</p>
+                <p><i class="fas fa-calendar-alt"></i>Feb. 2010 - Present</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
@@ -647,7 +727,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>September 2013 - June 2016</p>
+                <p><i class="fas fa-calendar-alt"></i>Sep. 2013 - Jun. 2016</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Nottingham, UK</p>
@@ -674,7 +754,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>February 2010 - January 2016</p>
+                <p><i class="fas fa-calendar-alt"></i>Feb. 2010 - Jan. 2016</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>Watford, UK</p>
@@ -699,7 +779,7 @@
             <!-- Date & Location -->
             <div class="row dateLocation">
               <div class="col-md-5">
-                <p><i class="fas fa-calendar-alt"></i>August 2006 - June 2016</p>
+                <p><i class="fas fa-calendar-alt"></i>Aug. 2006 - Jun. 2016</p>
               </div>
               <div class="col-md-7">
                 <p><i class="fas fa-map-marker-alt"></i>St Albans, UK</p>
@@ -719,38 +799,20 @@
         <div class="row imageContainer">
 
           <!-- STUDIO ONE -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Recording Guitars - Studio One '13" class="img-fluid" src="img/semi-acoustic-studio.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Recording Guitars - Studio One '13</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="Recording Guitars - Studio One '13" class="img-fluid" src="img/semi-acoustic-studio.jpg">
           </div>
 
           <!-- THE HORN -->
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Acoustic Gig - The Horn '16" class="img-fluid" src="img/acoustic-show-the-horn.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Acoustic Gig - The Horn '16</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img alt="Acoustic Gig - The Horn '16" class="img-fluid" src="img/acoustic-show-the-horn.jpg">
           </div>
         </div>
 
         <!-- HARVESTERS SOUTH FC -->
         <div class="row imageContainer">
-          <div class="col">
-            <div class="hovereffect">
-              <img alt="Harvesters South FC - St Albans '12" class="img-fluid" src="img/harvesters-fc.jpg">
-              <!-- Caption -->
-              <div class="overlay">
-                <p>Harvesters South FC - St Albans '12</p>
-              </div>
-            </div>
+          <div class="col-md-12">
+            <img alt="Harvesters South FC - St Albans '12" class="img-fluid" src="img/harvesters-fc.jpg">
           </div>
         </div>
       </div>
@@ -758,7 +820,7 @@
   </div>
 
   <!-- CONTACT SECTION -->
-  <div class="container-fluid section" id="contacts">
+  <div class="container-fluid section" id="contact">
     <div class="row">
       <!-- Empty column class for alignment purposes -->
       <div class="col-md-6"></div>
@@ -772,19 +834,19 @@
         <!-- Contact Buttons -->
         <div class="socialMediaIcon row text-center">
           <!-- Email -->
-          <div class="col">
+          <div class="col-md-3">
             <a href="mailto:nicholasjhill@live.co.uk" target="_blank"><i class="fas fa-envelope"></i></a>
           </div>
           <!-- LinkedIn -->
-          <div class="col">
+          <div class="col-md-3">
             <a href="https://www.linkedin.com/in/nicholas-j-hill/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
           <!-- Github -->
-          <div class="col">
+          <div class="col-md-3">
             <a href="https://github.com/nickjhill14" target="_blank"><i class="fab fa-github"></i></a>
           </div>
           <!-- CV -->
-          <div class="col">
+          <div class="col-md-3">
             <a href="download/nicholas_hill_cv.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
           </div>
         </div>
@@ -793,14 +855,10 @@
   </div>
 
   <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-  </script>
-  <script src="js/jqueryScrollTo.js">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jqueryScrollTo.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
