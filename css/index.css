@@ -10,7 +10,6 @@ body {
 }
 
 /* SECTIONS */
-
 section {
     min-height: 100%;
 }
@@ -27,6 +26,8 @@ hr {
 #landingPage {
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100%;
 }
 
 #education,
@@ -41,8 +42,7 @@ hr {
     background-color: #f2f2f2;
 }
 
-/* HEADINGS */
-
+/* TITLES & HEADINGS */
 h1,
 h2,
 h3,
@@ -60,6 +60,7 @@ h1 {
     letter-spacing: 3px;
     line-height: 200%;
     padding-left: 50px;
+    font-size: 100%;
 }
 
 h2 {
@@ -140,7 +141,8 @@ mark {
 
 /* DETAILS */
 
-.details p, li {
+.details p,
+li {
     font-size: 85%;
 }
 
@@ -150,6 +152,9 @@ mark {
 
 /* IMAGES */
 
-.imageContainer {
-    padding: 10px;
+/* Tablet, Desktops, & TVs */
+@media (min-width: 800px) {
+    .imageContainer {
+        padding: 10px;
+    }
 }
