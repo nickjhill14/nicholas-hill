@@ -81,7 +81,7 @@ h4 {
 /* LINKS */
 
 a {
-    color: #ffb347;
+    color: rgb(40, 31, 88);
 }
 
 a:hover {
@@ -105,20 +105,24 @@ nav {
     font-size: 15px;
 }
 
+.navbar .navbar-toggler-icon {
+    color: rgb(40, 31, 88);
+}
+
 .nav-link p {
-    color: grey;
+    color: rgb(40, 31, 88);
 }
 
 .nav-link p:hover {
-    color: #ffb347;
+    color: grey
 }
 
 /* LANDING PAGE */
 
 mark {
     background-color: transparent;
-    color: #ffb347;
-    font-weight: 400;
+    color: rgb(40, 31, 88);
+    font-weight: 500;
 }
 
 .vertical-center {
