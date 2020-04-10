@@ -172,8 +172,14 @@ li {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
     .horizontalRule {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .introText {
         display: none;
     }
 }
